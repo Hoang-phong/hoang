@@ -1,0 +1,120 @@
+/*------------------------------------------------------------
+=========================Case page========================
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+    Main Case page
+------------------------------------------------------------*/
+/*C BTN*/
+.c-navi1 {
+        margin-bottom: 75px;
+    ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: center
+    }
+    li{
+        width: 260px;
+        margin-left: 40px;
+        height: 52px;
+        &:nth-child(1){
+            margin-left: 0px;
+        }
+    }
+    a {
+        text-decoration: none;
+        background: #0291aa;
+        color: #FFF;
+        line-height: 1;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        height: 50px;
+        border-radius: 5px;
+        font-size: 1.2rem;
+        position: relative;
+        font-weight: bold;
+        &:after {
+            content: "";
+            position: absolute;
+            width: 5px;
+            height: 5px;
+            border-right: 2px solid #FFF;
+            border-bottom: 2px solid #FFF;
+            margin-left: 57px;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            margin-top: -4px;
+        }
+        &:hover{
+            background: #016f82;
+        }
+        
+    }
+    .current a {
+        border: 2px solid #0291aa;
+        background: #fff;
+        color: #0291aa;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        &:after {
+            border-right: 2px solid #0291aa;
+            border-bottom: 2px solid #0291aa;
+            
+        }
+    }
+}
+/*CASE CONTENT*/
+.case .news-post__title h3{
+    font-size: 23px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.c-care__title {
+    background: #e1f0fa;
+    h4 {
+    color: #025995;
+    font-size: 20px;
+    padding: 12px 20px;
+    margin-bottom: 30px;
+}
+}
+.c-case__content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 80px;
+}
+.c-care__img {
+    margin-right: 80px;
+}
+.c-care__txt {
+    width: 100%;
+    table {
+        border-top: 1px solid #CCC;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        border-bottom: 1px solid #CCC;
+        padding: 17px 0;
+        text-align: left;
+    }
+     tbody th {
+        padding-left: 20px;
+        color: #025995;
+        width: 140px;
+    }
+}
+ 

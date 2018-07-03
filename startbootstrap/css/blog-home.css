@@ -1,0 +1,55 @@
+/*!
+ * Start Bootstrap - Blog Home (https://startbootstrap.com/template-overviews/blog-home)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-blog-home/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+/*================css More========================*/
+.card.mb-4 img {
+    width: 100%;
+}
+/*==================MENU TOP =================*/
+li.nav-item a {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: rgba(255,255,255,.5);
+}
+li.nav-item.active a {
+    color: white;
+}
+ul.list-unstyled.mb-0 li {
+    width: 50%;
+    float: left;
+}
+/*==============Side Widget===============*/
+.card-body ul {
+    padding:0px;
+}
+.card-body li {
+    list-style-type: none;
+}
+.card-body li table {
+    width: 100%;
+}
+/*=============LIST COMMENT=================*/
+.media.mb-4 img{
+	margin-right: 1rem!important;
+    border-radius: 50%!important;
+}
+
+.tools_comment a {
+    color: #6c757d;
+    text-decoration: none;
+}
+.tools_comment a:hover {
+    color: #007bff;
+}

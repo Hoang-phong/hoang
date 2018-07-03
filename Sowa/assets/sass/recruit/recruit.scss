@@ -1,0 +1,44 @@
+/*------------------------------------------------------------
+=========================RECRUIT page========================
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+    Main RECRUIT page
+------------------------------------------------------------*/
+.c-guide {
+    margin-bottom: 175px;
+}
+/*c recruit*/
+.c-recruit{
+	display: flex;
+	margin-bottom: 168px;
+}
+.c-recruit__txt{
+	    margin-right: 62px;
+	h3{
+		font-size: 36px;
+		font-weight: 500;
+		color: #025995;
+		margin-bottom: 10px;
+	}
+}
+.c-intro {
+    position: relative;
+    margin-bottom: 132px;
+}
+.c-intro__txt {
+    position: absolute;
+    top: 35px;
+    left: 41px;
+    .more{
+    	   background: #0291aa url(../img/recruit/icon-mail.png) no-repeat right 136px center;
+    	   position: relative;
+    	   margin-top: 29px;
+    }
+    .more:hover {
+		    background: #ffffff url(../img/recruit/mail.png) no-repeat right 136px center;
+		    color: #0291aa;
+		    border: 2px solid #0291aa;
+}
+}
+

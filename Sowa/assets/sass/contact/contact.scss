@@ -1,0 +1,104 @@
+/*------------------------------------------------------------
+=========================Contact page========================
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+    Main Contact page
+------------------------------------------------------------*/
+/* Contact us*/
+.c-contactus {
+    margin-bottom: 145px;
+}
+/* Contact Form*/
+.contact-form {
+    margin-bottom: 130px;
+}
+.contact-form__container {
+    padding-top: 24px;
+}
+.input-group {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 7px;
+    input{
+    	height: 50px;
+	    border: 1px solid #ccc;
+	    padding-left: 20px;
+	    width: 76%;
+    }
+    select{
+    	height: 50px;
+    	width: 184px;
+    	padding-left: 20px;
+    }
+
+    label {
+	    min-width: 155px;
+	    color: #0361a7;
+	    font-weight: 500;
+	}
+    .required {
+	       width: 45px;
+		    height: 21px;
+		    background: #0362a8;
+		    text-align: center;
+		    color: #ffffff;
+		    margin-right: 30px;
+	}
+}
+.input-group.postalcode{
+	input{
+		width: 109px;
+	}
+}
+.u-kt {
+    padding: 0 10px;
+    
+}
+.required.bg-none {
+    background: no-repeat;
+}
+.required.Any {
+    background: #8c8b8b;
+}
+.radio-btn input {
+    width: auto;
+    height: auto;
+}
+ .input-group textarea{
+ 	width: 77.5%;
+    border: 1px solid #ccc;
+ }  
+.btn-send {
+    margin-top: 158px;
+    .submit {
+        background: #0291aa url(../img/icon-arrow.png) no-repeat right 43px center;
+        background-size: 9px auto;
+        height: 50px;
+        display: block;
+        padding: 0px 30px;
+        width: 251px;
+        color: #fff;
+        text-decoration: none;
+        line-height: 50px;
+        font-size: 1.6rem;
+        font-weight: bold;
+        border-radius: 3px;
+        text-align: center;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        margin: 0 auto;
+        border: none;
+        &:hover{
+            background: #00798e url(../img/icon-arrow.png) no-repeat right 43px center;
+        }
+    }
+}
+.radio-btn label.container {
+    color: #000000;
+}

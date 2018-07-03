@@ -1,0 +1,93 @@
+/*------------------------------------------------------------
+=========================Company page========================
+------------------------------------------------------------*/
+/*------------------------------------------------------------
+    Main company page
+------------------------------------------------------------*/
+/*title*/
+.company__title {
+  margin-bottom: 25px; }
+  .company__title h3 {
+    font-size: 30px;
+    color: #025995;
+    font-weight: 500; }
+
+.sub-title {
+  color: #6abbf6;
+  font-size: 18px;
+  margin-left: 15px; }
+
+.c-greeting {
+  margin-bottom: 159px; }
+
+/*signature*/
+.c-greeting__signature {
+  text-align: right;
+  margin-top: 25px;
+  margin-bottom: 40px; }
+
+/*table company profile*/
+.c-profile {
+  margin-bottom: 163px; }
+
+.c-profile__table1 {
+  z-index: 1;
+  width: 100%;
+  background: #ffffff;
+  padding-top: 10px; }
+  .c-profile__table1 table {
+    border-top: 1px solid #dddddd;
+    border-left: 1px solid #dddddd;
+    width: 100%;
+    border-collapse: collapse; }
+  .c-profile__table1 th, .c-profile__table1 td {
+    border-right: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 21px 0px;
+    padding-left: 40px; }
+  .c-profile__table1 tbody th {
+    font-size: 1.6rem;
+    background: #e7f5ff;
+    color: #0361a7;
+    text-align: left;
+    font-weight: 400;
+    width: 175px; }
+  .c-profile__table1 tbody td {
+    text-align: left;
+    font-size: 1.6rem;
+    padding-left: 28px;
+    padding-right: 28px; }
+
+/*table  INTRODUCTION gallery*/
+.c-introduction {
+  margin-bottom: 110px; }
+
+.c-introduction__gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-top: 10px; }
+
+.c-introduction__item {
+  max-width: 250px;
+  margin-bottom: 46px;
+  margin-left: 28px;
+  text-align: center; }
+
+.c-introduction__item:nth-child(4n+1) {
+  margin-left: 0px; }
+
+.c-introduction__img {
+  padding: 4px;
+  background: #ffffff;
+  border: 1px solid #ccc;
+  margin-bottom: 10px; }
+  .c-introduction__img img {
+    width: 100%; }
+
+.c-map {
+  margin-bottom: 108px; }
+
+/*# sourceMappingURL=company.css.map */

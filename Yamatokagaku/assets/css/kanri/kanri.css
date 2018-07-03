@@ -1,0 +1,45 @@
+/*------------------------------------------------------------
+	KANRI
+------------------------------------------------------------*/
+.c-imgtxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 82px;
+  margin-top: 26px; }
+
+.c-content2_img {
+  margin-left: 20px; }
+
+.small {
+  font-size: 1.1rem;
+  font-weight: 300;
+  line-height: 23px; }
+
+.c-imgtxt.margin-none {
+  margin-bottom: 25px; }
+
+.p-kanri .slide__content {
+  padding: 25px 12px 16px 18px; }
+.p-kanri .c-side2 {
+  margin-top: 19px; }
+.p-kanri .c-content2 {
+  margin-top: 52px; }
+.p-kanri .c-side1__header {
+  padding: 15px;
+  padding-right: 19px;
+  padding-bottom: 18px; }
+.p-kanri .c-content1 {
+  display: inline-block;
+  margin-top: 61px; }
+
+.c-side1__icon {
+  margin-top: 10px;
+  margin-right: 4px; }
+
+.c-content2__txt {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1; }
+
+/*# sourceMappingURL=kanri.css.map */

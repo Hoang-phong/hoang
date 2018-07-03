@@ -1,0 +1,32 @@
+/*------------------------------------------------------------
+=========================Business page========================
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------
+    Main company page
+------------------------------------------------------------*/
+/*C business*/
+.c-business {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 40px;
+    border: 2px solid #80cfdd;
+    margin-bottom: 79px;
+    h3{
+    	font-size: 20px;
+    	color:#025995;
+    	margin-bottom: 13px;
+    }
+    .icon-check {
+	    width: 17px;
+	    height: 17px;
+	    display: inline-block;
+	    background: #009fbb;
+	    margin-right: 10px;
+	}
+
+}
+.c-business__img {
+    margin-left: 50px;
+}
